@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Pizzabank</string>
+
+    <string name="textTitulo1">Datos</string>
+    <string name="textNom">Nombre:</string>
+    <string name="textDir">Dirección:</string>
+    <string name="textTel">Teléfono:</string>
+
+    <string name="butSal">Salir</string>
+    <string name="butAnt">Anterior</string>
+    <string name="butSig">Siguiente</string>
+
 </resources>
