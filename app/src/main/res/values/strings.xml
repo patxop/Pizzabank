@@ -2,9 +2,15 @@
     <string name="app_name">Pizzabank</string>
 
     <string name="textTitulo1">Datos</string>
+    <string name="textTitulo2">Pizzas</string>
+    <string name="textTitulo3">Bebidas</string>
+
     <string name="textNom">Nombre:</string>
     <string name="textDir">Dirección:</string>
     <string name="textTel">Teléfono:</string>
+
+    <string name="textCant">Cantidad: </string>
+    <string name="butAña">Añadir</string>
 
     <string name="butSal">Salir</string>
     <string name="butAnt">Anterior</string>

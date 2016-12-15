@@ -20,8 +20,8 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/editText"
-        android:layout_toStartOf="@+id/editText" />
+        android:layout_toLeftOf="@+id/editNombre"
+        android:layout_toStartOf="@+id/editNombre" />
 
     <TextView
         android:text="@string/textTitulo1"
@@ -43,15 +43,15 @@
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/editText3"
-        android:layout_toLeftOf="@+id/editText3" />
+        android:layout_toStartOf="@+id/editDireccion"
+        android:layout_toLeftOf="@+id/editDireccion" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/editNombre"
         android:layout_alignTop="@+id/textView3"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -66,15 +66,15 @@
         android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/editText4"
-        android:layout_toLeftOf="@+id/editText4" />
+        android:layout_toStartOf="@+id/editTelefono"
+        android:layout_toLeftOf="@+id/editTelefono" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText3"
+        android:id="@+id/editDireccion"
         android:layout_alignTop="@+id/textView4"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -85,37 +85,37 @@
         android:inputType="phone"
         android:ems="10"
         android:layout_alignTop="@+id/textView2"
-        android:layout_alignLeft="@+id/editText3"
-        android:layout_alignStart="@+id/editText3"
-        android:id="@+id/editText4" />
+        android:layout_alignLeft="@+id/editDireccion"
+        android:layout_alignStart="@+id/editDireccion"
+        android:id="@+id/editTelefono" />
 
     <Button
         android:text="@string/butSig"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
-        android:id="@+id/button"
+        android:id="@+id/butSiguiente1"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="@string/butSal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_alignBaseline="@+id/button"
-        android:layout_alignBottom="@+id/button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:text="@string/butAnt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:layout_alignBaseline="@+id/button2"
-        android:layout_alignBottom="@+id/button2"
+        android:id="@+id/butAnterior1"
+        android:layout_alignBaseline="@+id/butSalir1"
+        android:layout_alignBottom="@+id/butSalir1"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/butSal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butSalir1"
+        android:layout_alignBaseline="@+id/butSiguiente1"
+        android:layout_alignBottom="@+id/butSiguiente1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
